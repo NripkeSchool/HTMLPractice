@@ -5,24 +5,48 @@
   <title> My Project </title>
   <!--Comments!!!-->
   
+  
+  
 </head>
 
 <body>
+
+  <script>
+	function doStuff()
+	{
+		document.getElementById("b1").innerHTML = document.getElementById("b1").innerHTML + "!";
+	}
+	
+  </script>
+
+
 	<h1> This is my website! </h1>
-	<marquee>Hi my name is Noah</marquee>
-	<marquee>This is a marquee</marquee>
-	<marquee>I like marquees</marquee>
-	<marquee>They are very cool!</marquee>
-	<p>This is a paragraph about myself. I'm currently writing about myself.
+	<div id="Marquess">
+	  <marquee>Hi my name is Noah</marquee>
+	  <marquee>This is a marquee</marquee>
+	  <marquee>I like marquees</marquee>
+	  <marquee>They are very cool!</marquee>
+	</div>
+	<p>This is a <span id="word"> <strong>paragraph</strong> </span> about myself. I'm <em>currently</em> writing about myself.
 	  <br><br>
 	This is a very sophisticated description!
 	</p>
 	
 	<br>
 	<h1> This is me! </h1>
-	<marquee scrollamount = "50", width="400", behavior = "alternate"><marquee scrollamount = "50", height = "400", behavior = "alternate", direction="down"><img src='./customLogo.png'/></marquee></marquee>
 
-	<a href="https://sites.google.com/a/hershey.k12.pa.us/younglibertarians/"> Young Libs Club</a>
+	<a href="https://sites.google.com/a/hershey.k12.pa.us/younglibertarians/"> <marquee scrollamount = "25", width="400", behavior = "alternate"><marquee scrollamount = "25", height = "400", behavior = "alternate", direction="down"><img src='./customLogo.png'/></marquee></marquee></a>
+
+	<br><br>
+	<button id="b1" onClick = "doStuff()"> Button</button>
+	
+	<br>
+	<ol> 
+	  <li> <a href="#Marquess">Noah's Dark Past</a> </li>
+	  <li> <a>Lore/Trivia</a> </li>
+	  <li> Let's goooooooooooooooooooooooooo</li>
+	  <li> <a href="./schedule.html">My Schedule </a></li>
+	</ol>
 </body>
 
 </html>
