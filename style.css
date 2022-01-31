@@ -1,0 +1,24 @@
+*{
+	color: purple;
+}
+
+h1 {
+	color: green;
+}
+
+.MajorTitles {
+	text-align: center;
+	color: #000000;
+}
+
+#Marquess {
+	font-weight: bold;
+}
+
+h3, h4 {
+	background-color: brown;
+}
+
+button.buttons {
+	border: 3px solid black;
+}
