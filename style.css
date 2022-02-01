@@ -2,7 +2,7 @@
 	color: purple;
 }
 
-h1 {
+h1:hover {
 	color: green;
 }
 
@@ -21,4 +21,10 @@ h3, h4 {
 
 button.buttons {
 	border: 3px solid black;
+}
+
+.description {
+	width: 200px;
+	border-style: double;
+	padding: 20px;
 }
